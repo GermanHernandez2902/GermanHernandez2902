@@ -1,7 +1,14 @@
 ### 👨‍💻 ¡Hola! Soy **German Hernandez**
-#### 🚀 Desarrollador de Software | Apasionado por Python 🐍, Linux 🐧 y el Desarrollo Web Responsive ⚙️
-💻 Manejo avanzado de HTML5, CSS3, Vite + Sass, diseño Mobile First y despliegue con Vercel 🚀
-🗣️ Nivel de inglés muy avanzado, ideal para entornos de trabajo técnico e internacional 🌍
+#### 🚀 Desarrollador de Software  
+Apasionado por **Python 🐍**, **Linux 🐧** y el **Desarrollo Web Responsive ⚙️**
+
+💻 Manejo avanzado de:  
+- **HTML5** | **CSS3** | **Vite + Sass**  
+- **Diseño Mobile First**  
+- **Despliegue profesional con Vercel 🚀**
+
+🗣️ Nivel de **inglés muy avanzado**, ideal para entornos de trabajo técnico e internacional 🌍
+
 
 ---
 
