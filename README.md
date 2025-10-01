@@ -90,7 +90,7 @@ Trabajo con tecnologías modernas para construir proyectos que van desde juegos 
 ## 🐍 Animación Snake (contribuciones vivas)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GermanHernandez2902/GermanHernandez2902/output/github-contribution-grid-snake.svg" alt="snake animation" />
+ <img src="https://raw.githubusercontent.com/GermanHernandez2902/GitHub-Username/output/dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
 </p>
 
 ---
