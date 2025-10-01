@@ -6,28 +6,35 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # <--- permite crear la rama output
+  contents: write   # permite crear o actualizar archivos en la rama output
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Hacer checkout
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # importante para poder hacer push con GITHUB_TOKEN
 
+      # 2️⃣ Crear carpeta dist
       - name: Crear carpeta dist
         run: mkdir -p dist
 
+      # 3️⃣ Generar el Snake
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
           github_user_name: GermanHernandez2902
           output: dist/github-contribution-grid-snake.svg
 
+      # 4️⃣ Hacer push a la rama output
       - name: Push snake animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Actualizar GitHub Snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
