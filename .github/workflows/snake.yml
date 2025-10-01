@@ -9,11 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      # Hacer checkout del repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Generar la Snake
+      - name: Generate GitHub Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: GermanHernandez2902
-          outputs: dist/github-contribution-grid-snake.svg
+          output: dist/github-contribution-grid-snake.svg  # <--- corregido "outputs" a "output"
 
+      # Subir la animación a la rama output
       - name: Push snake animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
