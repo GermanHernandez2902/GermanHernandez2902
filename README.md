@@ -26,23 +26,40 @@ Soy un **Desarrollador de Software** apasionado por:
 
 ---
 
-## 📌 Proyectos Destacados
+## 🚀 Portafolio — Proyectos Destacados  
 
 ### 🎮 [Minesweeper-JS](https://github.com/GermanHernandez/minesweeper-js)  
-💣 Buscaminas clásico implementado en **JavaScript puro** con diseño responsive.  
+💣 Implementación del clásico **Buscaminas** en **JavaScript puro**, con interfaz responsive.  
+📀 **Tecnologías:** JavaScript, HTML5, CSS3.  
+🔗 **Demo (próximamente en Vercel).**
+
+---
 
 ### 🏓 [Arcade Pong](https://github.com/GermanHernandez/Arcade_Pong)  
-🎮 Juego retro Pong desarrollado en **Python + Pygame**.  
+🎮 Juego retro **Pong** desarrollado con **Python + Pygame**.  
+📀 **Tecnologías:** Python, Pygame.  
+🔗 **Descargar y ejecutar localmente.**
 
-### 🚢 [Exploración de Datos - Titanic](https://github.com/GermanHernandez/Streamlit_Exploracion_de_datos_pasajeros_del_Titanic)  
-📊 Dashboard interactivo con **Streamlit**.  
-🔗 [Probar demo en línea](https://titanic-exploration.streamlit.app/)
+---
+
+### 🚢 [Exploración de Datos — Titanic](https://github.com/GermanHernandez/Streamlit_Exploracion_de_datos_pasajeros_del_Titanic)  
+📊 Dashboard interactivo para explorar los datos del Titanic con **Streamlit**.  
+📀 **Tecnologías:** Python, Pandas, Scikit-learn, Streamlit.  
+🔗 **[Probar demo en línea](https://titanic-exploration.streamlit.app/)**  
+
+---
 
 ### 🧩 [Resolutor de Sudoku](https://github.com/GermanHernandez/Resolutor_de_Sudoku)  
-🧠 Algoritmo con **backtracking** para resolver sudokus de cualquier dificultad.  
+🧠 Algoritmo con **backtracking** que resuelve sudokus de cualquier nivel de dificultad.  
+📀 **Tecnologías:** Python, Algoritmos de búsqueda.  
+🔗 **Ejecutable en consola/local.**
+
+---
 
 ### 🎬 [Sistema de Recomendación Netflix](https://github.com/GermanHernandez/Sistema_de_recomendaci-n_Netflix)  
-🤖 Recomendador de películas/series con **Machine Learning** en Python.  
+🤖 Recomendador de películas y series usando **Machine Learning** basado en similitud de contenido.  
+📀 **Tecnologías:** Python, Pandas, Scikit-learn, Tkinter.  
+🔗 **App de escritorio (local).**
 
 ---
 
